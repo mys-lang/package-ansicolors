@@ -1,10 +1,12 @@
-def add(first: i32, second: i32) -> i32:
-    """Returns the sum of given numbers `first` and `second`.
+RESET: string = "\x1b[0m"
+BOLD: string = "\x1b[1m"
+UNDERLINE: string = "\x1b[4m"
 
-    """
-
-    return first + second
-
-@test
-def test_add():
-    assert add(1, 2) == 3
+BLACK: string = "\x1b[30m"
+RED: string = "\x1b[31m"
+GREEN: string = "\x1b[32m"
+YELLOW: string = "\x1b[33m"
+BLUE: string = "\x1b[34m"
+MAGENTA: string = "\x1b[35m"
+CYAN: string = "\x1b[36m"
+WHITE: string = "\x1b[37m"
